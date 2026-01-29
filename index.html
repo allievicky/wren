@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="src/mediaqueries.css">
+  <title>WREN Salon StL</title>
+</head>
+<body>
+<nav id="desktop-nav">
+  <div class="logo">WREN Salon StL</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#stylists">Stylists</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero-image" id="home">
+  <div class="hero-overlay">
+    <div class="hero-text">
+      <h1>Glow Inside & Out</h1>
+    </div>
+  </div>
+</section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-container">
+      <img src="assets/logo.png" class="logo-pic" alt="WREN Salon logo">
+      <div class="text-container">
+        <p class="about-text">
+          Be a part of the laughter and easy-going vibes at WREN. Leave looking and feeling like the glowing gal or guy you are! Our stylists take pride in creating a peaceful, beautiful atmosphere and staying current with the latest haircuts and color techniques.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery">
+    <p class="section__text__p1">Look Around</p>
+    <div class="gallery-container">
+      <div class="image-container">
+        <img src="assets/salon-1.png" alt="Salon photo" class="gallery-thumb">
+        <img src="assets/salon-2.png" alt="Salon photo" class="gallery-thumb">
+        <img src="assets/salon-3.png" alt="Salon photo" class="gallery-thumb">
+        <img src="assets/salon-4.png" alt="Salon photo" class="gallery-thumb">
+        <img src="assets/salon-5.png" alt="Salon photo" class="gallery-thumb">
+        <img src="assets/salon-6.png" alt="Salon photo" class="gallery-thumb">
+      </div>
+    </div>
+  </section>
+
+ <!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-arrow left">&#10094;</button>
+  <img id="lightbox-img" src="" alt="Expanded image">
+  <button class="lightbox-arrow right">&#10095;</button>
+</div>
+
+<!-- STYLIST SECTION -->
+<section id="stylists">
+  <p class="section__text__p1">Meet the Stylists</p>
+
+  <div class="stylist-container">
+    <div class="stylist-card">
+      <img src="assets/stylist-1.jpg" alt="Stylist Name">
+      <h3>Stylist Name</h3>
+      <p>Color • Lived-in Cuts • Blonding</p>
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </div>
+
+    <div class="stylist-card">
+      <img src="assets/stylist-2.jpg" alt="Stylist Name">
+      <h3>Stylist Name</h3>
+      <p>Precision Cuts • Extensions</p>
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <p class="section__text__p2">Get in Touch</p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p>We are conveniently located in the heart of Brentwood.</p>
+        <p>2312 South Brentwood Blvd.</p>
+        <p>St. Louis, MO 63144</p>
+        <p>314-283-9287</p>
+        <p>*By appointment only Tuesday-Saturday.</p>
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.0000000!2d-90.0000000!3d38.0000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0000000000001%3A0x0000000000000000!2sBrentwood%2C%20MO!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright &#169; 2025 WREN Salon StL. All Rights Reserved.</p>
+  </footer>
+
+  <script src="src/index.js"></script>
+  <script src="src/lightbox.js"></script>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+
+</body>
+</html>
